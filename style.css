@@ -1,0 +1,30 @@
+* {
+  /* margin: 0; */
+  /* padding: 0; */
+}
+
+.dashboard {
+  border: black;
+}
+
+#logo {
+  height: 30px;
+  width: 30px;
+  background-color: black;
+}
+
+#company-name {
+  color: white;
+}
+
+.sidebar {
+  background-color: blue;
+}
+
+.header {
+  background-color: yellow;
+}
+
+.main-content {
+  background-color: pink;
+}
