@@ -7,18 +7,9 @@
   border: black;
 }
 
-#logo {
-  height: 30px;
-  width: 30px;
-  background-color: black;
-}
-
-#company-name {
-  color: white;
-}
-
 .sidebar {
   background-color: blue;
+  color: white;
 }
 
 .header {
