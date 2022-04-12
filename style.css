@@ -26,5 +26,17 @@
 }
 
 .main-content {
-  background-color: pink;
+  background-color: rgb(13, 100, 10);
+}
+
+.your-projects > div {
+  background-color: red;
+}
+
+.announcement-list {
+  background-color: blueviolet;
+}
+
+.trending-projects {
+  background-color: aqua;
 }
