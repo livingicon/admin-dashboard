@@ -45,6 +45,7 @@ ul {
   font-weight: bold;
   align-self: center;
   padding: 0px 15px;
+  margin: .3rem;
 }
 
 .branding h1 {
@@ -53,6 +54,10 @@ ul {
 
 .settings {
   margin-top: 50px;
+}
+
+.home {
+  margin-top: 25px;
 }
 
 .content-right {
@@ -64,6 +69,9 @@ ul {
   background-color: #ffffff;
   display: grid;
   grid-template-rows: 1fr 1fr;
+  box-shadow: 0px 15px 20px rgb(182, 182, 182);
+  position: relative;
+  z-index: 10;
 }
 
 .header-top {
@@ -138,16 +146,24 @@ button {
   padding: 15px;
   border-radius: 15px;
   border-left: 15px solid #f0b429;
+  box-shadow: 0px 15px 20px rgb(182, 182, 182);
 }
 
 .project-info h1 {
   font-size: 1.5rem;
 }
 
-.project-icons ul {
+.project-info p,
+.creator-project, 
+.announcement p {
+  color: #7f7f7f;
+}
+
+.project-icons {
   display: grid;
-  grid-template-columns: 5fr 1fr 1fr;
+  grid-template-columns: 3fr 1fr 1fr;
   justify-items: end;
+  gap: 5px;
 }
 
 /* EXTRAS */
@@ -169,6 +185,7 @@ button {
 .announcement-list,
 .trending-projects {
   border-radius: 15px;
+  box-shadow: 0px 15px 20px rgb(182, 182, 182);
 }
 
 .announcement-list {
