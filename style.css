@@ -9,12 +9,11 @@ html body {
 
 /* 
 TO DO: 
-1. box shadow variable
-2. grey text
-3. icons
-4. search bar input
-5. auto limits on project box containers
-6. blue/grey don't line up on bottom
+1. variables practice?
+2. auto limits on project box containers
+3. blue/grey don't line up on bottom
+4. header items vertically centered
+5. trending and announcements spaced properly
 */
 
 ul {
@@ -79,7 +78,7 @@ ul {
 
 .header-top {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1.4fr 1fr;
 }
 
 input {
@@ -99,12 +98,33 @@ input {
 
 .user {
   display: grid;
-  grid-template-columns: 2fr 1fr 2fr;
-  align-self: center;
-  justify-items: end;
-  margin-right: 90px;
+  grid-template-columns: 1fr 2fr 2fr;
+  justify-items: center;
+  margin: 0px 30px;
   font-weight: bold;
   font-size: 1.2rem;
+}
+
+.morgan-icon {
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+}
+
+#morgan-icon-large {
+  border-radius: 50%;
+  height: 4.5rem;
+  width: 4.5rem;
+}
+
+#user-greeting {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+#user-name-large {
+  font-weight: bold;
+  font-size: 1.7rem;
 }
 
 .header-bottom {
@@ -232,4 +252,10 @@ button {
 .creator {
   display: grid;
   grid-template-columns: 1fr 3fr;
+}
+
+.creator img {
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
 }
